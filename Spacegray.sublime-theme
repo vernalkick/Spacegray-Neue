@@ -546,7 +546,7 @@
     {
         "class": "sidebar_label",
         "parents": [{"class": "tree_row","attributes": ["expandable"]}],
-        "color": [145, 165, 170] // 03
+        "color": [150, 165, 170] // 03
     },
     {
         "class": "sidebar_label",
@@ -1076,7 +1076,6 @@
     {
         "class": "icon_file_type",
         "layer0.texture": "Theme - Spacegray/Spacegray/document.png",
-        // "content_margin": [8,0],
         "layer0.tint": [70, 83, 98]
     },
     {
@@ -1097,17 +1096,21 @@
         "layer0.texture": "Theme - Spacegray/Spacegray/folder.png",
         "content_margin": [8,0],
         "layer0.tint": [70, 83, 98],
-        "layer0.tint": [48, 96, 121]
+        "layer0.tint": [48, 96, 121],
+        "layer0.tint": [80, 130, 175],
+        "layer0.tint": [255, 255, 255],
+        "layer0.tint": [100, 113, 128]
+        // "layer0.opacity": 0.5,
         // "layer0.texture": "",
         // "layer0.opacity": 0.0,
         // "content_margin": [0,0]
     },
-    {
-        "class": "icon_folder",
-        "parents": [{"class": "tree_row","attributes": ["hover"]}],
-        "layer0.tint":[255, 255, 255],
-        "layer0.opacity": 0.5,
-    },
+    // {
+    //     "class": "icon_folder",
+    //     "parents": [{"class": "tree_row","attributes": ["hover"]}],
+    //     "layer0.tint":[255, 255, 255],
+    //     "layer0.opacity": 0.5,
+    // },
     {
         "class": "icon_folder",
         "parents": [{"class": "tree_row","attributes": ["selected"]}],
